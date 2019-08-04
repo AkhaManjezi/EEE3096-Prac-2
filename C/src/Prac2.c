@@ -1,7 +1,7 @@
 #include "Prac2.h"
 
-extern double data [SAMPLE_COUNT];
-extern double carrier[SAMPLE_COUNT];
+extern float data [SAMPLE_COUNT];
+extern float carrier[SAMPLE_COUNT];
 
 double result [SAMPLE_COUNT];
 
