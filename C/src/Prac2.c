@@ -1,7 +1,7 @@
 #include "Prac2.h"
 
-extern float data [SAMPLE_COUNT];
-extern float carrier[SAMPLE_COUNT];
+extern __fp16 data [SAMPLE_COUNT];
+extern __fp16 carrier[SAMPLE_COUNT];
 
 __fp16 result [SAMPLE_COUNT];
 
